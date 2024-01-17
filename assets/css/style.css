@@ -1,0 +1,586 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap')
+/* <uniquifier>: Use a uniquifier for the class name */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.section-title {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 150% */
+}
+
+.section-content {
+  width: 66.66%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-content p {
+  margin: 24px 0 48px 0;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 15px 35px;
+  border: 1px solid transparent;
+  margin-top: 35px;
+}
+
+.orange {
+  color: #ff5400;
+}
+
+ul.main-menu li a.current {
+  color: #ff5400;
+}
+
+.divider {
+  display: block;
+  width: 70%;
+  margin: 50px auto;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+}
+.mrt-100{
+    margin-top: 100px
+}
+
+.mrb-100{
+    margin-bottom: 100px;
+}
+body {
+  width: 100%;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+/* header area css */
+.header {width: 90%;margin: 0 auto;padding: 50px 0;}
+
+.header  > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {margin-right: 16px;}
+
+.header-logo h1 {
+}
+
+.nav {
+}
+
+ul.main-menu {display: flex;justify-content: space-evenly;gap: 40px;}
+
+ul.main-menu li {list-style: none;}
+
+ul.main-menu li a {color: #424247;font-family: Mulish;font-size: 18px;text-decoration: none;}
+
+ul.mobile-nav {
+  display: none;
+}
+
+/* header area css ends */
+
+/* hero banner area css */
+.hero-banner {
+  width: 100%;
+  /* height: 500px; */
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-banner .container {
+  /* width: 66.66%; */
+  margin: 0 auto;
+  text-align: center;
+  z-index: 999;
+}
+
+.hero-banner-area {
+  padding: 110px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {margin: 0 auto;width: 50%;}
+
+.hero-title {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.hero-content p {
+  color: #fff;
+  line-height: 26px;
+  margin: 24px 0 48px 0;
+}
+
+.findnow-form {
+  display: flex;
+width: 100%;
+}
+
+.findnow-form .form-container{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  display: flex;
+  justify-content: space-around;
+  width: 66.66%;
+  margin: 0 auto;
+}
+
+.form-container form {
+  padding-bottom: 33px;
+}
+.findnow-form select {
+    padding: 16px 20px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+
+.findnow-form select:nth-child(1) { 
+  /* for Firefox */ 
+  -moz-appearance: none; 
+  /* for Safari, Chrome, Opera */ 
+  -webkit-appearance: none; 
+
+/* popular tour section css */
+}
+
+.popular-tour {
+  display: flex;
+  margin: 100px 0;
+}
+.popular-tour .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.popular-tour-content {
+  width: 50%;
+  padding-right: 45px;
+}
+
+.popular-tour-image img {
+  width: 100%;
+  height: auto;
+}
+
+.popular-tour-content ul li {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  line-height: 26px; /* 162.5% */
+  margin: 24px 30px;
+}
+
+/* destination-section css */
+
+.destination-section {
+}
+
+.section-content {
+}
+
+.destination-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 103%;
+}
+
+.item {
+}
+
+.destination-img .item {
+  position: relative;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  border-radius: 16px;
+}
+
+.destination-img .item .img-item {
+}
+
+.destination-img .item-text {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  color: #fff;
+  text-align: center;
+  line-height: normal;
+}
+
+/* why-choose-us section css */
+
+.why-choose-us {
+}
+
+.content-section {
+  width: 50%;
+}
+
+.why-choose-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.why-choose-items .item {border-radius: 16px;border: 1px solid rgba(251, 181, 99, 0.20);background: rgba(251, 181, 99, 0.05);padding: 32px;}
+.why-choose-items .item:nth-child(2) {border-radius: 16px;border: 1px solid rgba(41, 206, 246, 0.20);background: rgba(41, 206, 246, 0.05);}
+.why-choose-items .item img {margin-bottom: 32px;}
+
+.why-choose-items .item .item-title {margin-bottom: 16PX;}
+
+.why-choose-items .item .item .item-content {
+}
+
+/* deals_discount section css */
+section.deals_discount {
+}
+.deals-item-container{
+  height: 500px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.deals-item-container:nth-child(1){
+  background: url("../Images/deal-bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+.deals-item-container:nth-child(2){
+  background: url("../Images/deal-bg-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+.deals-item-container:nth-child(3){
+  background: url("../Images/deal-bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.deals-item-contents {width: 100%;}
+
+.deals-item {padding: 55px;margin-bottom: 24px;width: 50%;border-radius: 16px;border: 2px solid #FFF;background: rgba(255, 255, 255, 0.80);backdrop-filter: blur(2.5px);}
+
+.deals-item:nth-child(1){
+  position: absolute;
+  top: 8%;
+  left: 46px;
+}
+
+.deals-item:nth-child(2){
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.deals-item:nth-child(3){
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+ul.deals-meta-info {display: flex;gap: 24px;}
+
+ul.deals-meta-info li {list-style: none;color: #5A5A5D;font-family: Mulish;}
+
+ul.deals-meta-info li span {
+    padding-right: 5px;
+}
+
+ul.deals-meta-info li span i {
+    color: #FF5400;
+    font-size: 16px;
+}
+
+.item-title {
+}
+
+.deals-item .btn-primary {
+  margin-top: 10px;
+  padding: 13px 25px;
+}
+.price {color: #FF5400;font-family: Mulish;font-size: 20px;font-weight: 800;line-height: normal;}
+
+/* our_popular tour section css */
+.our-popular-tour {
+  display: flex;
+  padding-top: 100px;
+}
+
+.our-popular-tour .container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.popular-tour-video {
+  width: 50%;
+}
+section.our-popular-tour h2 {
+    width: 80%;
+    line-height: 1.25;
+}
+
+section.our-popular-tour p {
+    margin: 24px 0;
+}
+
+section.our-popular-tour ul {
+    padding-left: 30px;
+    color: #131318;
+    font-family: Mulish;
+    font-weight: 700;
+    line-height: 1.5; /* 162.5% */
+}
+
+section.our-popular-tour ul li {
+    margin-bottom: 16px;
+}
+
+section.our-popular-tour .btn-primary {padding: 15px 45px;}
+
+.popular-tour-video iframe {
+  width: 100%;
+  height: 100%;
+}
+/* newsletter form area css */
+.newsletter {
+  display: flex;
+  margin: 100px 0;
+}
+
+.newsletter .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+
+.newsletter-form {
+  width: 40%;
+  border: 1px solid #ff5400;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.newsletter-form h2.section-title {
+  font-size: 24px;
+  line-height: normal;
+}
+
+.newsletter-form p {
+  color: #5a5a5d;
+  line-height: 26px; /* 162.5% */
+}
+
+
+.newsletter-form .divider {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+
+
+
+.newsletter-form form {
+  width: 100%;
+}
+
+.newsletter-form form input {
+  display: block;
+
+  margin-bottom: 16px;
+
+  width: 100%;
+
+  padding: 16px 0px 16px 20px;
+
+  border-radius: 8px;
+
+  border: 1px solid transparent;
+
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-form form input::placeholder {
+  color: rgba(19, 19, 24, 0.3);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.newsletter-img {
+  width: 60%;
+  position: relative;
+}
+.newsletter-img img {
+  width: 100%;
+}
+
+.newsletter-img-info p {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.newsletter-img-info {
+  position: absolute;
+  bottom: 38px;
+  right: 6px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  background: #ff5400;
+  transform: rotate(-19.628deg);
+  text-align: center;
+  color: #fff;
+}
+
+.newsletter-form form input.btn-subscribe {
+  margin-bottom: 0;
+  width: 104%;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 8px;
+  background: #ff5400;
+}
+/* footer area css */
+
+.footer {
+  width: 100%;
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+  padding: 110px 0;
+}
+
+.footer-top-area {
+}
+
+.footer-logo-area{
+
+width: 66%;
+
+margin: 0 auto;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo h1 {
+
+}
+
+.footer-logo img{
+    display: inline-block;
+    width: 40px;
+    height: 32px;
+    padding-right: 16px;
+}
+.footer-logo-area p {
+  margin: 15px 0 33px 0;
+  padding: 0 40px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0 35px 0;
+}
+
+.social-links ul {
+  display: flex;
+  gap: 25px;
+}
+
+.social-links ul li {
+  list-style: none;
+}
+
+.social-links ul li a {
+  color: #000;
+}
+
+.copiright-text {
+}
+
+.copiright-text p {
+color: #131318;
+font-family: Inter;
+font-weight: 300;
+}

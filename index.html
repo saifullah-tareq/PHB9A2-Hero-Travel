@@ -1,113 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHB9A2 | Hero-Travel</title>
-    <link rel="icon" href="assets/Images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <!-- header area starts here -->
-    <header>
-        <div class="container">
-            <!-- logo area -->
-            <div class="logo">
-                <div class="logo-img">
-                    <img src="assets/Images/logo.png" alt="Hero-Travel logo">
-                </div>
-                <div class="logo-text">
-                    <h1>Hero<span>Travel</span></h1>
-                </div> 
-            </div>
-            <!-- logo area ends -->
-            <!-- navigation area -->
-            <nav>
-                <ul class="main-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+    <link rel="icon" href="assets/Images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-                <!-- mobile view hamburger menu -->
-                <ul class="mobile-nav">
-                    <li><span><i class="fa-solid fa-bars"></i></span></li>
-                </ul>
-            </nav>
-            <!-- navigation area ends -->
-        </div>
+  <body>
+    <!-- header area starts here -->
+    <header class="header">
+      <div class="container">
+        <!-- logo area -->
+        <div class="header-logo">
+            <img src="assets/Images/logo.png" alt="Hero-Travel logo" />
+            <h1>Hero<span>Travel</span></h1>
+          </div>
+        <!-- logo area ends -->
+        <!-- navigation area -->
+        <nav>
+          <ul class="main-menu">
+            <li><a class="current" href="#">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <!-- mobile view hamburger menu -->
+          <ul class="mobile-nav">
+            <li>
+              <span><i class="fa-solid fa-bars"></i></span>
+            </li>
+          </ul>
+        </nav>
+        <!-- navigation area ends -->
+      </div>
     </header>
     <!-- header area ends -->
 
     <!-- main area starts -->
     <main>
-        <!-- hero banner area starts -->
-        <div class="hero-banner">
-            <div class="container">
-                <!-- hero content start -->
-                <div class="hero-content">
-                    <h2 class="hero-title">Explore Your Travel</h2>
-                    <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-                </div>
-                <!-- hero content ends -->
-                <!-- find now form -->
-                <div class="findnow-form">
-                    <form action="#">
-                        <select name="" id="">
-                            <option value="select">Where go</option>
-                            <option value="maldives">Maldives</option>
-                            <option value="indonesia">Indonesia</option>
-                            <option value="srilanka">Srilanka</option>
-                            <option value="north-america">North America</option>
-                            <option value="kashmir">Kashmir</option>
-                            <option value="bandarban">Bandarban</option>
-                        </select>
-                        <select name="" id="">
-                            <option value="select">When</option>
-                            <option value="january">January 20</option>
-                            <option value="april">April 14</option>
-                            <option value="april">July 26</option>
-                        </select>
-                        <select name="" id="">
-                            <option value="select">Select type</option>
-                            <option value="budget">Budget tour</option>
-                            <option value="premium">Premium tour</option>
-                            <option value="corporate">Corporate tour</option>
-                        </select>
-                        <button class="btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
-                    </form>
-                </div>
-                <!-- find now form ends -->
+      <!-- hero banner area starts -->
+      <div class="hero-banner">
+        <div class="container">
+          <!-- hero content start -->
+          <div class="hero-banner-area">
+            <div class="hero-content">
+              <h2 class="hero-title">Explore Your Travel</h2>
+              <p>
+                Dolor sit amet consectetur. Nullam suspendisse vitae ultricies
+                dolor adipiscing. In et odio enim ac quis sapien urna eu
+                phasellus.
+              </p>
             </div>
-            <!-- container div ends -->
+            <!-- hero content ends -->
+            <!-- find now form -->
+            <div class="findnow-form">
+              <div class="form-container">
+                <form action="#">
+                  <select name="" id="">
+                    <option value="select">Where go</option>
+                    <option value="maldives">Maldives</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="srilanka">Srilanka</option>
+                    <option value="north-america">North America</option>
+                    <option value="kashmir">Kashmir</option>
+                    <option value="bandarban">Bandarban</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="select">When</option>
+                    <option value="january">January 20</option>
+                    <option value="april">April 14</option>
+                    <option value="april">July 26</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="select">Select type</option>
+                    <option value="budget">Budget tour</option>
+                    <option value="premium">Premium tour</option>
+                    <option value="corporate">Corporate tour</option>
+                  </select>
+                  <button class="btn-primary" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>Find Now
+                  </button>
+                </form>
+              </div>
+            </div>
+            <!-- find now form ends -->
+          </div>
         </div>
-        <!-- hero banner area ends -->
+        <!-- container div ends -->
+      </div>
+      <!-- hero banner area ends -->
 
-        <!-- popular tour section start -->
-        <section class="popular-tour">
-            <div class="container">
-                <div class="popular-tour-content">
-                    <h2 class="section-title"></h2>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit 
-                        massa. Sodales dictumst nec nibh pellentesque.</p>
-                        <ul>
-                            <li>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</li>
-                            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                            <li>Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
-                        </ul>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
-                    <button class="btn-primary" type="submit">Read More</button>
-                </div>
-                <div class="popular-tour-image">
-                    <img src="assets/Images/popular_tour.png" alt="Hero Travel Popular Tour">
-                </div>
+      <!-- popular tour section start -->
+      <section class="popular-tour">
+        <div class="container">
+          <div class="popular-tour-content">
+            <h2 class="section-title">Our Popular Tours</h2>
+            <p>
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+              odio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+            <ul>
+              <li>
+                Dolor sit amet consectetur. Nullam suspendisse vitae ultricies
+                dolor adipiscing. In et odio enim ac quis sapien urna eu
+                phasellus.
+              </li>
+              <li>
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                platea porta lacus. Lectus suspendisse nullam.
+              </li>
+              <li>
+                Accumsan eget et turpis praesent lorem egestas enim elit
+                bibendum. Risus at in.
+              </li>
+            </ul>
+            <p>
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet. Id bibendum nunc
+              senectus semper tincidunt.
+            </p>
+            <button class="btn-primary" type="submit">Read More</button>
+          </div>
+          <div class="popular-tour-image">
+            <img
+              src="assets/Images/popular_tour.png"
+              alt="Hero Travel Popular Tour"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- popular tour secction ends -->
+
+      <!-- destination-section starts -->
+      <section class="destination-section">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">Choose Your Destination</h2>
+            <p>
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+              odio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+          </div>
+          <!-- destination section image starts -->
+          <div class="destination-img">
+            <div class="item">
+              <div class="img-item">
+                <img src="assets/Images/1.png" alt="" />
+              </div>
+              <div class="item-text">
+                <h4>Maldives</h4>
+              </div>
             </div>
-        </section>
-        <!-- popular tour secction ends -->
+            <!-- destination-img item content img -->
+
+            <div class="item">
+              <div class="img-item">
+                <img src="assets/Images/2.png" alt="" />
+              </div>
+              <div class="item-text">
+                <h4>Indonesia</h4>
+              </div>
+            </div>
+            <!-- destination-img item content img -->
+
+            <div class="item">
+              <div class="img-item">
+                <img src="assets/Images/3.png" alt="" />
+              </div>
+              <div class="item-text">
+                <h4>Srilanka</h4>
+              </div>
+            </div>
+            <!-- destination-img item content img -->
+
+            <div class="item">
+              <div class="img-item">
+                <img src="assets/Images/4.png" alt="" />
+              </div>
+              <div class="item-text">
+                <h4>North America</h4>
+              </div>
+            </div>
+            <!-- destination-img item content img -->
+
+            <div class="item">
+              <div class="img-item">
+                <img src="assets/Images/5.png" alt="" />
+              </div>
+              <div class="item-text">
+                <h4>Kashmir</h4>
+              </div>
+            </div>
+            <!-- destination-img item content img -->
+
+            <div class="item">
+              <div class="img-item">
+                <img src="assets/Images/6.png" alt="" />
+              </div>
+              <div class="item-text">
+                <h4>Bangladesh</h4>
+              </div>
+            </div>
+            <!-- destination-img item content img -->
+
+            <div class="item">
+              <div class="img-item">
+                <img src="assets/Images/7.png" alt="" />
+              </div>
+              <div class="item-text">
+                <h4>Bandarban</h4>
+              </div>
+            </div>
+            <!-- destination-img item content img -->
+          </div>
+          <!-- destination-img section ends -->
+        </div>
+      </section>
+      <!-- destination section ends -->
+
+      <section class="why-choose-us mrt-100">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">Why Choose Us</h2>
+            <p>
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+              odio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+          </div>
+          <!-- content-section ends -->
+
+          <!-- why-choose-us section ends -->
+          <div class="why-choose-items">
+            <div class="item">
+              <img src="assets/Images/why 1.png" alt="" />
+              <h2 class="item-title">Handpicked Hotels</h2>
+              <p class="item-content">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
+            <!-- item section ends -->
+
+            <div class="item">
+              <img src="assets/Images/why 2.png" alt="" />
+              <h2 class="item-title">World Class Service</h2>
+              <p class="item-content">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
+            <!-- item section ends -->
+
+            <div class="item">
+              <img src="assets/Images/why-3 1.png" alt="" />
+              <h2 class="item-title">World Class Service</h2>
+              <p class="item-content">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
+            <!-- item section ends -->
+          </div>
+          <!-- why-choose-items area ends -->
+        </div>
+      </section>
+      <!-- why-choose-us section ends -->
+
+      <section class="deals_discount mrt-100">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">Deals & Discounts</h2>
+            <p>
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+              odio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+          </div>
+          <!-- content-section area ends -->
+
+          <div class="deals-item-contents">
+            <!-- deal-item starts -->
+            <div class="deals-item-container">
+              <div class="deals-item">
+                <ul class="deals-meta-info">
+                  <li>
+                    <span><i class="fa-solid fa-clock"></i></span>7 Day / 6 Night
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-users"></i></span>Max : 10
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-location-dot"></i></span>Malaysia
+                  </li>
+                </ul>
+                <h4 class="item-title">Tour To Satorini</h4>
+                <p>
+                  Amet consectetur. Vulputate commodo felis molestie risus ornare
+                  nulla amet et. Libero commodo sagittis dignissim adipiscing
+                  quis. Habitant adipiscing.
+                </p>
+                <p class="price">Price: $1300-$1500</p>
+                <button class="btn-primary">Book Now</button>
+              </div>
+              <!-- deals-item area ends -->
+            </div>
+            
+            <div class="deals-item-container">
+              <div class="deals-item">
+                <ul class="deals-meta-info">
+                  <li>
+                    <span><i class="fa-solid fa-clock"></i></span>7 Day / 6 Night
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-users"></i></span>Max : 10
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-location-dot"></i></span>Malaysia
+                  </li>
+                </ul>
+                <h4 class="item-title">Tour To Satorini</h4>
+                <p>
+                  Amet consectetur. Vulputate commodo felis molestie risus ornare
+                  nulla amet et. Libero commodo sagittis dignissim adipiscing
+                  quis. Habitant adipiscing.
+                </p>
+                <p class="price">Price: $1300-$1500</p>
+                <button class="btn-primary">Book Now</button>
+              </div>
+              <!-- deals-item area ends -->
+            </div>
+            
+            <div class="deals-item-container">
+              <div class="deals-item">
+                <ul class="deals-meta-info">
+                  <li>
+                    <span><i class="fa-solid fa-clock"></i></span>7 Day / 6 Night
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-users"></i></span>Max : 10
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-location-dot"></i></span>Malaysia
+                  </li>
+                </ul>
+                <h4 class="item-title">Tour To Satorini</h4>
+                <p>
+                  Amet consectetur. Vulputate commodo felis molestie risus ornare
+                  nulla amet et. Libero commodo sagittis dignissim adipiscing
+                  quis. Habitant adipiscing.
+                </p>
+                <p class="price">Price: $1300-$1500</p>
+                <button class="btn-primary">Book Now</button>
+              </div>
+              <!-- deals-item area ends -->
+            </div>
+            
+          </div>
+          <!-- deals-item-contents ends -->
+        </div>
+      </section>
+      <!-- deals_discount section ends -->
+
+      <!-- our_popular tour section start -->
+      <section class="our-popular-tour">
+        <div class="container">
+          <div class="content-section">
+            <h2 class="section-title">A Simple Perfect Place To Get Lost</h2>
+            <p>
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            </p>
+            <ul>
+              <li>
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                platea porta lacus. Lectus suspendisse nullam.
+              </li>
+              <li>
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                platea porta lacus. Lectus suspendisse nullam.
+              </li>
+            </ul>
+            <button class="btn-primary" type="submit">See More</button>
+          </div>
+          <div class="popular-tour-video">
+            <iframe
+              src="https://www.youtube.com/embed/Cn4G2lZ_g2I?si=NH9O8w21qxkzUd01"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- our_popular tour section ends -->
+
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter-form">
+            <h2 class="section-title">Newsletter</h2>
+            <p>Get your daily dose of travel news & tips. Sign up today!</p>
+            <div class="divider"></div>
+            <form>
+              <input type="text" name="" placeholder="Enter your name" id="" />
+              <input
+                type="email"
+                name=""
+                placeholder="Enter your email"
+                id=""
+              />
+              <input class="btn-subscribe" type="submit" value="Subscribe">
+            </form>
+          </div>
+          <!-- newsletter form area ends -->
+
+          <div class="newsletter-img">
+            <img src="assets/Images/newsletter.png" alt="" />
+            <div class="newsletter-img-info">
+              <p>Travel.com</p>
+              <h4>Save up to 70%</h4>
+            </div>
+          </div>
+          <!-- newsletter-img area ends -->
+        </div>
+      </section>
+      <!-- newsletter area ends -->
     </main>
-     
-</body>
+    <!-- main area ends -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top-area">
+          <div class="footer-logo-area">
+            <div class="footer-logo">
+                <img src="assets/Images/logo.png" alt="Hero Travel logo" />
+                <h1>Hero <span class="orange">Travel</span></h1>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi
+              vitae blandit orci potenti vulputate. Leo erat maecenas vitae
+              elementum ultricies nullam.
+            </p>
+          </div>
+          <!-- footer logo area ends -->
+
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- social-links area ends -->
+        </div>
+        <!-- footer top area ends -->
+
+        <div class="divider"></div>
+        <div class="copiright-text">
+          <p>2017, All Rights Reserved.</p>
+        </div>
+        <!-- copyright area end -->
+      </div>
+    </footer>
+  </body>
 </html>
